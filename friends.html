@@ -10,6 +10,7 @@
       integrity="sha384-v8BU367qNbs/aIZIxuivaU55N5GPF89WBerHoGA4QTcbUjYiLQtKdrfXnqAcXyTv"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="css/styles.css" />
 
     <title>Friends | Kakao Clone</title>
   </head>
@@ -43,7 +44,7 @@
     <main class="friends">
       <!-- 메인_헤더:내 정보 -->
       <header class="friends__header">
-        <div class="friends_firend friend friend--lg">
+        <div class="friends_friend friend">
           <div class="friend__column">
             <img src="images/my-avatar.jpg" class="g-avatar friend__avatar" />
             <div class="friend__content">
@@ -62,7 +63,7 @@
         <h5 class="friends__title">Plus Friend</h5>
         <div class="friends_firend friend">
           <div class="friend__column">
-            <img src="images/my-avatar.jpg" class="g-avatar friend__avatar" />
+            <img src="images/my-avatar.jpg" class="friend__avatar" />
             <div class="friend__content">
               <span class="friend__name">
                 Plus Friend
@@ -74,9 +75,9 @@
       <!-- 메인_친구리스트 -->
       <ul class="friends__list">
         <h5 class="friends__title">Friends 14</h5>
-        <li class="friends_firend friend">
+        <li class="friends_friend friend">
           <div class="friend__column">
-            <img src="images/my-avatar.jpg" class="g-avatar friend__avatar" />
+            <img src="images/my-avatar.jpg" class="friend__avatar" />
             <div class="friend__content">
               <span class="friend__name">
                 남정훈
@@ -97,7 +98,7 @@
     </main>
     <!-- 내비게이션바 -->
     <nav class="nav">
-      <ul class="nav_list">
+      <ul class="nav__list">
         <li class="nav__list-item">
           <a href="friends.html" class="nav__list-link">
             <i class="fas fa-user"></i>
@@ -120,5 +121,8 @@
         </li>
       </ul>
     </nav>
+    <div class="bigScreen">
+      <span class="bigScreen__text">Please make your screen small</span>
+    </div>
   </body>
 </html>
